@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
 
+::-webkit-scrollbar {display: none;}
+
 :root{
     --background: linear-gradient(135deg, #011c40ea 40%, #05c7f241 60%);
     --color-primary: #05c7f2;
