@@ -399,6 +399,7 @@ footer{
     }
     .contenido-slider{
         background: var(--background6);
+        height: 650px;
     }
     .contenido-slider > img{
         width: 250px;
