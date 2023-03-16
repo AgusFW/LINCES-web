@@ -60,7 +60,7 @@ header{
     right: 0%;
     width: 30vw;
     height: 100%;
-    background-image: var(--background2);
+    background-image: var(--background2), url(../assets/LINCES\ logo\ PNG5.png);
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
@@ -74,9 +74,10 @@ header{
     transform: translate(0);
 }
 .menu-navegacion a{
-    color: white;
+    color: var(--color-secondary);
     text-decoration: none;
     font-size: 1.5rem;
+    font-weight: 800;
 }
 .contenedor{
     width: 100%;
@@ -224,6 +225,11 @@ header{
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.753);
     cursor: pointer;
     border-radius: 1%;
+}
+.img-galeria:hover{   
+    transition: .3s;
+    transform: scalex(1.1) scaley(1.1);
+    transform-origin: center;
 }
 .imagen-light{
     position: fixed;
@@ -395,6 +401,7 @@ footer{
     }
     .menu-navegacion{
         width: 50vw;
+        background-position: -30px -100px;
     }
     .menu-navegacion a{
         font-size: 1rem;
@@ -492,6 +499,7 @@ footer{
     }
     .menu-navegacion{
         width: 65vw;
+        background-position: -50px -130px;
     }
     .menu{
         top: 20px;
