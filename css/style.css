@@ -415,7 +415,7 @@ footer{
         background: var(--background6);
     }
     .contenido-slider > img{
-        width: 320px;
+        width: 65%;
     }
     .contenido-slider h1{
         font-size: 2.5rem; 
@@ -430,10 +430,10 @@ footer{
         background: var(--background8);
     }
     .contenido-slider:nth-child(2) img{
-        width: 350px;
+        width: 85%;
     }
     .contenido-slider:nth-child(3) img{
-        width: 350px;
+        width: 85%;
     }
     .contenido-slider > div{
         width: 80%;
@@ -519,7 +519,7 @@ footer{
         justify-content: space-evenly;
     }
     .contenido-slider > img{
-        width: 290px;
+        width: 90%;
     }
     .contenido-slider h1{
         font-size: 2rem; 
@@ -528,10 +528,10 @@ footer{
         font-size: 0.8rem; 
     }
     .contenido-slider:nth-child(2) img{
-        width: 290px;
+        width: 95%;
     }
     .contenido-slider:nth-child(3) img{
-        width: 290px;
+        width: 95%;
     }
     .presentation_picture{
         max-width: 45%;
