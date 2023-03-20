@@ -418,10 +418,10 @@ footer{
         width: 65%;
     }
     .contenido-slider h1{
-        font-size: 3rem; 
+        font-size: 330%; 
     }
     .contenido-slider h2{
-        font-size: 1.2rem; 
+        font-size: 130%; 
     }
     .contenido-slider:nth-child(2){
         background: var(--background7);
@@ -522,10 +522,10 @@ footer{
         width: 90%;
     }
     .contenido-slider h1{
-        font-size: 2rem; 
+        font-size: 250%; 
     }
     .contenido-slider h2{
-        font-size: 0.8rem; 
+        font-size: 85%; 
     }
     .contenido-slider:nth-child(2) img{
         width: 95%;
